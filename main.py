@@ -1,7 +1,7 @@
 import telebot
 import random
 
-bot = telebot.TeleBot('5682695749:AAEd1WE7EOCzpMV6mjQ8_yKK3Rt1pp5_2IE')
+bot = telebot.TeleBot('YOUR_TOKEN')
 
 candys = 117
 move = 'User'
