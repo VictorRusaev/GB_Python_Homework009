@@ -30,9 +30,6 @@ def echo_all(message):
     candys -= move_candy
     bot.send_message(message.chat.id, f'Bot взял {move_candy} конфет. Осталось {str(candys)} конфет')
     bot.send_message(message.chat.id, 'Введите число не больше 28')
-    if candys < 29:
-        bot.send_message(message.chat.id, f'Выиграл {move}') 
-
     
 
 bot.infinity_polling()
